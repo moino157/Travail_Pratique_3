@@ -272,12 +272,12 @@ public class Travail_Pratique_3 extends Application {
         private Circle circle = new Circle(SIZE / 2);
 
         /**
-         * Constructeur de la classe.
+         * Constructeur de la classe prenant les coordonnees du cercle qui sera ajoute.
          * @param point Un point géométrique 2D qui représente les coordonnées x, y.
          */
         public Boule(Point2D point) {
             
-            //Defini le centre du cercle a l'aide de son rayon
+            //Defini la position du cercle dans la zone du centre de la fenetre
             circle.setCenterX(SIZE / 2);
             circle.setCenterY(SIZE / 2);
             
